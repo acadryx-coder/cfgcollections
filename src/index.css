@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-ivory text-charcoal dark:bg-bg dark:text-text transition-colors duration-300 antialiased font-body;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+  ::selection {
+    @apply bg-brand-blue/20 text-brand-blue;
+  }
+}
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-6 sm:px-10 lg:px-12;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-brand-blue px-6 py-3 text-sm font-semibold text-white transition hover:scale-105 hover:shadow-lg;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-full border border-line px-6 py-3 text-sm font-semibold text-charcoal transition hover:bg-surface hover:text-text dark:text-text dark:hover:bg-surface;
+  }
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.2em] text-brand-gold;
+  }
+}
