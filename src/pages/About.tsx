@@ -28,7 +28,7 @@ export default function About() {
       <div className="mt-16 grid gap-8 lg:grid-cols-2 lg:gap-16 items-center">
         <div className="aspect-[4/5] overflow-hidden rounded-xl bg-surface">
           <img
-            src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=800&q=80"
+            src="/founder.jpg"
             alt="Favour – Founder"
             className="h-full w-full object-cover"
           />
