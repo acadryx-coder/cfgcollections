@@ -54,10 +54,8 @@ export default function Home() {
               Curated pieces for everyday elegance — each garment checked by hand before it leaves our studio.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <Link to="/shop" className="bg-brand-blue text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:scale-105 transition">Browse Collection</Link>
+              <Link to="/shop" className="bg-brand-blue text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:scale-105 transition">Browse & Search All</Link>
               <Link to="/collections" className="bg-brand-gold text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:scale-105 transition">Explore Collections</Link>
-              <Link to="/lookbook" className="bg-brand-gold text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:scale-105 transition">Lookbook</Link>
-              <Link to="/journal" className="bg-brand-gold text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:scale-105 transition">Journal</Link>
             </div>
           </motion.div>
         </div>
