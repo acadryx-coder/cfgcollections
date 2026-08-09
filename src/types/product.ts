@@ -8,4 +8,5 @@ export interface Product {
   images: string[]
   isNew?: boolean
   isFeatured?: boolean
+  gender?: 'male' | 'female' | 'unisex'
 }

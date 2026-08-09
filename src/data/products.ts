@@ -1,7 +1,6 @@
 import { Product } from '../types/product'
 
 export const products: Product[] = [
-  // ---- NOT FEATURED (these do not appear on home page) ----
   {
     id: 'p1',
     slug: 'combo-top-down',
@@ -12,6 +11,7 @@ export const products: Product[] = [
     images: ['/images/combo-top-down-1.jpg'],
     isNew: true,
     isFeatured: false,
+    gender: 'female',
   },
   {
     id: 'p2',
@@ -22,6 +22,7 @@ export const products: Product[] = [
     price: 95000,
     images: ['/images/combo-shoe-bag-1.jpg', '/images/combo-shoe-bag-2.jpg'],
     isFeatured: false,
+    gender: 'female',
   },
   {
     id: 'p3',
@@ -31,18 +32,20 @@ export const products: Product[] = [
     category: 'Bags',
     price: 78000,
     images: ['/images/coach-bag-1.jpg', '/images/coach-bag-2.jpg', '/images/coach-bag-3.jpg'],
-    isFeatured: false, // not in your list
+    isFeatured: false,
+    gender: 'unisex',
   },
   {
     id: 'p4',
-    slug: 'crop-top-guys',
-    name: 'Crop Top (Guys)',
+    slug: 'crop-top',
+    name: 'Crop Top',
     description: 'A chic cropped top with a flattering silhouette. Perfect for layering or wearing solo.',
     category: 'Tops',
     price: 22000,
     images: ['/images/guys-crop-top.jpg'],
     isNew: true,
     isFeatured: false,
+    gender: 'unisex',
   },
   {
     id: 'p5',
@@ -53,6 +56,7 @@ export const products: Product[] = [
     price: 24000,
     images: ['/images/crop-top-zip-1.jpg', '/images/crop-top-zip-2.jpg'],
     isFeatured: false,
+    gender: 'unisex',
   },
   {
     id: 'p6',
@@ -62,7 +66,8 @@ export const products: Product[] = [
     category: 'Tops',
     price: 28000,
     images: ['/images/handless-polo-black.jpg'],
-    isFeatured: true, // ✅ featured
+    isFeatured: true,
+    gender: 'unisex',
   },
   {
     id: 'p7',
@@ -73,6 +78,7 @@ export const products: Product[] = [
     price: 28000,
     images: ['/images/handless-polo-blue.jpg'],
     isFeatured: false,
+    gender: 'unisex',
   },
   {
     id: 'p8',
@@ -82,7 +88,8 @@ export const products: Product[] = [
     category: 'Tops',
     price: 15000,
     images: ['/images/white-t-shirt-1.jpg'],
-    isFeatured: true, // ✅ featured
+    isFeatured: true,
+    gender: 'unisex',
   },
   {
     id: 'p9',
@@ -92,7 +99,8 @@ export const products: Product[] = [
     category: 'Bottoms',
     price: 18000,
     images: ['/images/bum-short-1.jpg', '/images/bum-short-2.jpg', '/images/bum-short-3.jpg', '/images/bum-short-4.jpg', '/images/bum-short-5.jpg'],
-    isFeatured: true, // ✅ featured (includes bum-short-4.jpg)
+    isFeatured: true,
+    gender: 'female',
   },
   {
     id: 'p10',
@@ -103,6 +111,7 @@ export const products: Product[] = [
     price: 12000,
     images: ['/images/girls-singlet-1.jpg', '/images/girls-singlet-style2.jpg', '/images/girls-singlet-style3.jpg'],
     isFeatured: false,
+    gender: 'female',
   },
   {
     id: 'p11',
@@ -112,7 +121,8 @@ export const products: Product[] = [
     category: 'Sets',
     price: 48000,
     images: ['/images/one-corner-combo-1.jpg'],
-    isFeatured: true, // ✅ featured
+    isFeatured: true,
+    gender: 'female',
   },
   {
     id: 'p12',
@@ -122,7 +132,8 @@ export const products: Product[] = [
     category: 'Tops',
     price: 30000,
     images: ['/images/girls-polo-1.jpg', '/images/girls-polo-2.jpg', '/images/girls-polo.jpg'],
-    isFeatured: true, // ✅ featured
+    isFeatured: true,
+    gender: 'female',
   },
   {
     id: 'p13',
@@ -132,7 +143,8 @@ export const products: Product[] = [
     category: 'Tops',
     price: 30000,
     images: ['/images/guys-polo-1.jpg', '/images/guys-polo-2.jpg'],
-    isFeatured: true, // ✅ featured
+    isFeatured: true,
+    gender: 'male',
   },
   {
     id: 'p14',
@@ -143,6 +155,7 @@ export const products: Product[] = [
     price: 30000,
     images: ['/images/male-polo-1.jpg'],
     isFeatured: false,
+    gender: 'male',
   },
   {
     id: 'p15',
@@ -153,7 +166,8 @@ export const products: Product[] = [
     price: 26000,
     images: ['/images/slay-button-crop-top-1.jpg'],
     isNew: true,
-    isFeatured: true, // ✅ featured
+    isFeatured: true,
+    gender: 'female',
   },
   {
     id: 'p16',
@@ -163,7 +177,8 @@ export const products: Product[] = [
     category: 'Knitwear',
     price: 35000,
     images: ['/images/guys-sweater-1.jpg', '/images/guys-sweater-2.jpg'],
-    isFeatured: true, // ✅ featured
+    isFeatured: true,
+    gender: 'male',
   },
   {
     id: 'p17',
@@ -174,6 +189,7 @@ export const products: Product[] = [
     price: 20000,
     images: ['/images/cross-stripped-female-long-sleeve.jpg'],
     isFeatured: false,
+    gender: 'female',
   },
   {
     id: 'p18',
@@ -183,7 +199,8 @@ export const products: Product[] = [
     category: 'Tops',
     price: 20000,
     images: ['/images/male-long-sleeve-black.jpg'],
-    isFeatured: true, // ✅ featured
+    isFeatured: true,
+    gender: 'male',
   },
   {
     id: 'p19',
@@ -193,7 +210,8 @@ export const products: Product[] = [
     category: 'Tops',
     price: 20000,
     images: ['/images/male-long-sleeve-white.jpg'],
-    isFeatured: true, // ✅ featured
+    isFeatured: true,
+    gender: 'male',
   },
   {
     id: 'p20',
@@ -203,7 +221,8 @@ export const products: Product[] = [
     category: 'Outerwear',
     price: 65000,
     images: ['/images/jean-jacket.jpg'],
-    isFeatured: true, // ✅ featured
+    isFeatured: true,
+    gender: 'unisex',
   },
   {
     id: 'p21',
@@ -215,6 +234,7 @@ export const products: Product[] = [
     images: ['/images/slay-gown-1.jpg', '/images/slay-gown-style2.jpg'],
     isNew: true,
     isFeatured: false,
+    gender: 'female',
   },
   {
     id: 'p22',
@@ -225,6 +245,7 @@ export const products: Product[] = [
     price: 25000,
     images: ['/images/braided-strap-flat-sandals.jpg'],
     isFeatured: false,
+    gender: 'female',
   },
   {
     id: 'p23',
@@ -234,7 +255,8 @@ export const products: Product[] = [
     category: 'Bottoms',
     price: 15000,
     images: ['/images/leggings-1.jpg'],
-    isFeatured: true, // ✅ featured
+    isFeatured: true,
+    gender: 'female',
   },
   {
     id: 'p24',
@@ -245,6 +267,7 @@ export const products: Product[] = [
     price: 42000,
     images: ['/images/floral-scarf-top*high-waist-shorts**combo.jpg', '/images/floral-scarf-top*high-waist-shorts**combo-2.jpg'],
     isFeatured: false,
+    gender: 'female',
   },
   {
     id: 'p25',
@@ -255,6 +278,7 @@ export const products: Product[] = [
     price: 55000,
     images: ['/images/girls-polo*leggings*coach-bag**combo-outfit.jpg'],
     isFeatured: false,
+    gender: 'female',
   },
   {
     id: 'p26',
@@ -265,6 +289,7 @@ export const products: Product[] = [
     price: 48000,
     images: ['/images/ladys-checkered-button-up*checkered-shorts*handbag*sandals**combo-outfit.jpg'],
     isFeatured: false,
+    gender: 'female',
   },
   {
     id: 'p27',
@@ -275,6 +300,7 @@ export const products: Product[] = [
     price: 38000,
     images: ['/images/ladys-graphic-tshirt*jean-shorts*handbag*sandals**combo-outfit.jpg'],
     isFeatured: false,
+    gender: 'female',
   },
   {
     id: 'p28',
@@ -285,6 +311,7 @@ export const products: Product[] = [
     price: 40000,
     images: ['/images/ladys-high-neck-top*polka-dot-shorts**combo.jpg'],
     isFeatured: false,
+    gender: 'female',
   },
   {
     id: 'p29',
@@ -295,6 +322,7 @@ export const products: Product[] = [
     price: 45000,
     images: ['/images/ladys-polo*slim-fit-skirt**combo.jpg'],
     isFeatured: false,
+    gender: 'female',
   },
   {
     id: 'p30',
@@ -305,6 +333,7 @@ export const products: Product[] = [
     price: 42000,
     images: ['/images/ladys-singlet*high-low-maxi-skirt**combo.jpg'],
     isFeatured: false,
+    gender: 'female',
   },
   {
     id: 'p31',
@@ -315,8 +344,8 @@ export const products: Product[] = [
     price: 52000,
     images: ['/images/ladys-singlet*jean-shorts*handbag*sandals**combo-outfit.jpg'],
     isFeatured: false,
+    gender: 'female',
   },
-  // ---- NEW COMBO (from your list) ----
   {
     id: 'p32',
     slug: 'crop-top-zip-coach-bag-leggings-combo',
@@ -326,7 +355,8 @@ export const products: Product[] = [
     price: 68000,
     images: ['/images/crop-top-zip*coach-bag*short leggings**combo.jpg'],
     isNew: true,
-    isFeatured: true, // ✅ featured (explicitly requested)
+    isFeatured: true,
+    gender: 'female',
   },
 ]
 
